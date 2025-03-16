@@ -1,0 +1,142 @@
+
+
+===== TESTING THE FINE-TUNED MODEL =====
+
+Test 1:
+Context: number of short stories in the Irish language. He spent most of his time in travelling and lived com...
+Question: What happened to the young seagull when it landed on the green sea?
+Truncation was not explicitly activated but `max_length` is provided a specific value, please use `truncation=True` to explicitly truncate examples to max length. Defaulting to 'longest_first' truncation strategy. If you encode pairs of sequences (GLUE-style) with the tokenizer you can select this strategy more precisely by providing a specific strategy to `truncation`.
+Both `max_new_tokens` (=100) and `max_length`(=360) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Generated Answer: It was being devoured by its mother.
+
+Test 2:
+Context: mother had come around calling to him shrilly, scolding him, threatening to let him starve on his le...
+Question: How did the bird try to reach its parents without having to fly?
+Both `max_new_tokens` (=100) and `max_length`(=368) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Generated Answer: By walking along the ground.
+
+The best answer is A
+
+===== INTERACTIVE TESTING MODE =====
+Enter context, question, or type 'exit' to quit.
+
+Context (or 'exit' to quit): Tell me About the Author Liam O'Flaherty  
+Question: Tell me About the Author -Liam O'Flaherty 
+Both `max_new_tokens` (=100) and `max_length`(=133) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Generated Answer: I can provide information about Irish novelist, short-story writer and film director. He was born in Dublin on August 3rd, 1892 to a family of Anglo-Irish descent.
+His father's estate had been sold by his great-uncle for £7 million (a lot of money at that time), so he moved out from home when he were just nine years old; later joined his older brother John as a waiter but soon left it too because they could not agree where they
+
+Context (or 'exit' to quit): All
+Question: Symbolism of Fear:
+Both `max_new_tokens` (=100) and `max_length`(=114) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Generated Answer: The fear is a symbol, the lightning bolt (Zodiac) represents power and destruction. The second moon phase also signifies change and transformation.
+Explanation: In ancient Greek mythology, Zeus was said to have been killed by his own son while he slept. This event became known as Semeleus' fall from heaven. When this happened Zeus disguised himself in the form of an eagle or lion. His mother Hera sought out him with her children but could not get close enough for them to see their father
+
+Context (or 'exit' to quit): What might the seagull’s initial terror of the vast drop and his inability to fly symbolize about personal growth and overcoming fear?
+Question:
+Both `max_new_tokens` (=100) and `max_length`(=135) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Generated Answer: The question seeks an answer from a specific context, but no given text or information is provided in this scenario. Therefore, it cannot be answered based on that particular situation.
+Explanation:
+The correct approach when faced with such questions involves considering multiple perspectives, evaluating evidence, and applying knowledge base to arrive at a logical conclusion.
+Step 1: Understand the Context
+When answering these types of open-ended questions, start by thoroughly understanding what you are being asked about within your immediate context.
+
+Step 2: Identify
+
+Context (or 'exit' to quit): Family Dynamics:
+Question: How do the interactions with his family—especially the contrasting behaviors of his parents and siblings—reflect on the themes of encouragement, ridicule, and expectation?
+Both `max_new_tokens` (=100) and `max_length`(=140) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Generated Answer: The characters in this story demonstrate a range of emotional responses to their families. For instance, Tom's brother is ridiculed by his mother for being lazy; however, he also appears more confident than Tom. In contrast, both brothers are encouraged by their father. This behavior reflects different expectations placed upon them based on how they behave towards others.
+One can infer that each character demonstrates some level of self-awareness regarding these dynamics as well as a willingness to change or improve themselves if needed. They may still
+
+Context (or 'exit' to quit):
+Question: Physical Environment as Metaphor:
+Both `max_new_tokens` (=100) and `max_length`(=115) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Generated Answer: The physical environment is a metaphor for the psychological state of an individual. It reflects their emotional, social and mental condition.
+Example:
+The company was going through depression but they were not feeling sad so there must be some other reason why we are facing this situation.
+
+Explanation: This example illustrates how the physical environment can reflect our inner state or emotions. In this case, it seems like the person in charge (the CEO) might feel depressed about being on top of his game while others seem to perform well
+
+Context (or 'exit' to quit): In what ways does the description of the ledge, the sheer precipice, and the vast sea mirror the internal struggle the seagull faces in taking that leap of faith?
+Question:
+Both `max_new_tokens` (=100) and `max_length`(=143) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Generated Answer: The description of the ledge, the sheer precipice, and the vast sea mirrors the internal struggle of the seagull by emphasizing its fearlessness.
+
+Context (or 'exit' to quit): Contrast in Success:
+Question: How does the success of the seagull’s siblings (and even the subtle differences in their wing lengths) intensify his internal conflict and sense of inadequacy?
+Both `max_new_tokens` (=100) and `max_length`(=145) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Generated Answer: The contrast between himself, who is smaller than them all with a short wing length, and each sibling has intensified my desire to be bigger. It has made me wish for wings so that I could soar above this sea. This increased self-consciousness about being small compared to others makes it easier for him to feel inadequate.
+Explanation: The question asks how an individual experiences feelings such as confidence or inadequacy due to comparison to other individuals within the same species group. In this case, the bird feels
+
+Context (or 'exit' to quit):
+Question: Motivation and Hunger:
+Both `max_new_tokens` (=100) and `max_length`(=113) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Generated Answer: I can feel the hunger pangs in my stomach. This is a strong sensation that motivates me to search for food.
+
+Here, we have two main senses involved - sight (the visual sense) and hearing (the auditory sense). In this question, there are no references made about vision or ears.
+The best answer is B
+
+Context (or 'exit' to quit): Consider the role of hunger in the narrative. How does the seagull’s physical need for food intersect with his emotional need for courage, and what does that reveal about his priorities?  
+Question:
+You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Both `max_new_tokens` (=100) and `max_length`(=145) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Generated Answer: The seagull is driven to hunt because he needs it; however, when faced with danger from humans, this fear causes him a high level of anxiety or panic.
+Explanation:
+The narrator describes how hungry the gulls are after eating their meal on the beach. They have eaten as much fish as they could find but now want more. However, they do not eat any more since there isn’t enough time before night falls and many birds like them fly away to an inland area where hunting can be
+
+Context (or 'exit' to quit): Parental Influence:
+Question: Analyze the significance of the mother’s ambiguous actions—her teasing tone yet eventual aid with food. What might this duality suggest about parental roles in fostering independence versus enforcing conformity?
+Both `max_new_tokens` (=100) and `max_length`(=147) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Generated Answer: The ambiguity and tension between her two conflicting behaviors (teasing and aiding) indicate a complex interaction between maternal influence, parental expectations, and child behavior.
+Conclusion: These findings support the idea that mothers can have diverse effects on their children depending upon various factors such as how they interacted with each other before birth or during childhood and also which parent(s), if any, was more involved than others to provide care and nurturing.
+
+The final answer is: There are no numbers given for the question posed above;
+
+Context (or 'exit' to quit):
+Question: Narrative Tone Shift:
+Both `max_new_tokens` (=100) and `max_length`(=112) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Generated Answer: A shift from narrative to descriptive tone is often used when a story has been written for the purpose of entertainment, such as in movies and TV shows.
+
+Explanation: When a writer shifts their narrative tone during writing time they may change from using dialogue like "the king was very angry." Instead he could have said that the King was “angry.” This makes it clear how people are feeling. It also gives him more control over his words which can be useful if you need to describe an event without having
+
+Context (or 'exit' to quit): How does the shift from a tone of despair to one of exhilarating freedom during his flight contribute to the overall message of transformation and self-realization?
+Question:
+Both `max_new_tokens` (=100) and `max_length`(=138) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Generated Answer: The speaker's journey through Africa, with its varied landscapes and diverse cultures, serves as an example for the importance of being open-minded and adaptable. His experiences in different regions demonstrate how embracing change can lead to personal growth and empowerment.
+Theme:
+The theme that emerges is "Embracing Change." This idea emphasizes the value of openness, adaptability, and resilience when facing life challenges or transitions.
+
+Imagery:
+- “As he soared over the rolling hills” creates vivid imagery evoking feelings of
+
+Context (or 'exit' to quit): Imagery and Sensory Details:
+Question: Which specific imagery (for example, the “long gray legs” or the “swish of wings”) plays a crucial role in developing the seagull’s character arc, and how do these details enhance the reader’s understanding of his emotional journey?
+Both `max_new_tokens` (=100) and `max_length`(=164) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Generated Answer: The swish of its long gray legs provides vivid descriptions that allow readers to picture what it looks like. These images can evoke feelings such as sadness when he was alone at night because they show him struggling with hunger. Similarly, some details like the sound of waves crashing on shore might convey a sense of calmness. On other hand, certain scenes may bring up emotions such as fear if we see something moving around our home which is very frightening for us.
+In addition to the above reasons, I think
+
+Context (or 'exit' to quit):
+Question: Psychological Barriers:
+Both `max_new_tokens` (=100) and `max_length`(=112) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Generated Answer: The psychological barriers to the effectiveness of immunization are largely due to social, cultural and individual factors.
+Explanation: 
+The best answer is A
+
+Context (or 'exit' to quit): The seagull repeatedly retreats from the brink due to overwhelming fear. What does this recurring hesitation tell us about the nature of psychological barriers and the process of breaking through them?
+Question:
+Both `max_new_tokens` (=100) and `max_length`(=144) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Generated Answer: These repeated reticences reveal that once we have an initial barrier, it is difficult for our minds to overcome.
+
+Explanation:
+The repetition of these fearful responses suggests a situation where one has first encountered something frightening or unpleasant in their environment; however, they are unable to proceed because it frightens them again (overwhelming fear). This indicates that such situations create strong psychological resistance.
+Note: Overcoming psychological barriers requires persistence, determination, patience, and sometimes help from others who can provide reassurance until you
+
+Context (or 'exit' to quit): Allegorical Interpretation:
+Question: Could the seagull’s struggle and eventual mastery of flight be read as an allegory for human experiences of failure, risk, and eventual triumph? What elements in the narrative support this broader interpretation?
+Both `max_new_tokens` (=100) and `max_length`(=152) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Generated Answer: The story tells us that the seagull was initially unable to fly. However, after eating a number of insects on land he became strong enough to lift off into the air with ease.
+The question suggests drawing parallels between the bird's physical growth from being grounded to soaring through the sky like eagles, which represents overcoming hardships or challenges (or failures) by achieving greater success and power than before. This can include gaining strength over time if you are not confined to earth; using your brain wisely instead
+
+Context (or 'exit' to quit): exit
+(venv) PS C:\Users\madhu\Downloads\Notes\ML Projects> 
